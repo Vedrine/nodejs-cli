@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-cli",
+  "version": "1.0.0",
+  "description": "Customer management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vedrine/nodejs-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vedrine/nodejs-cli/issues"
+  },
+  "homepage": "https://github.com/Vedrine/nodejs-cli#readme",
+  "dependencies": {
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3",
+    "mongoose": "^5.10.7"
+  }
+}
